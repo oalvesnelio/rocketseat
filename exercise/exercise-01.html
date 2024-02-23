@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice 1</title>
+  <script>
+    // Only float numbers
+    let numberOne = parseFloat(prompt('Write the first number'))
+    let numberTwo = parseFloat(prompt('Write the second number'))
+    let numberSum = parseFloat(numberOne + numberTwo)
+
+    alert(`The sum of the two numbers is: ${numberSum}`);
+
+  </script>
+</head>
+<body>
+  <p><b>1 - The sum of two numbers</b></p>
+  <p id="write-result"></p>
+
+  <ol>
+    <li><a href="../index.html">Previous page</a></li>
+    <li><a href="exercise-02.html">Next exercise - Number 2</a></li>
+  </ol>
+
+  <script>
+    let elementResult = document.getElementById('write-result').innerText = `The sum of the two numbers is: ${numberSum}`
+  </script>
+</body>
+</html>

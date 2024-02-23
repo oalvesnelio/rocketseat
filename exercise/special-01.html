@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice 1</title>
+  <script>
+    // Only float numbers
+    let numberOne = parseFloat(prompt('Write the first number'))
+    let numberTwo = parseFloat(prompt('Write the second number'))
+    let sumNumbers = parseFloat(numberOne + numberTwo)
+    let typeNumber = ''
+
+    if ((sumNumbers % 2) === 0) {
+      typeNumber = 'even'
+    } else {
+      typeNumber = 'odd'
+    }
+
+    alert(`Check if the sum of the two numbers is even or not: The result is ${typeNumber}!`);
+
+  </script>
+</head>
+<body>
+  <p><b>Special 1 - Check if the sum of two numbers is even (or odd). </b></p>
+  <p id="write-result"></p>
+
+  <ol>
+    <li><a href="exercise-04.html">Previous exercise - Number 5</a></li>
+    <li><a href="special-02.html">Next exercise - Special 2</a></li>
+  </ol>
+
+  <script>
+    let elementResult = document.getElementById('write-result').innerText = `Check if the sum of the two numbers is even or not: The result is ${typeNumber}!`
+  </script>
+</body>
+</html>

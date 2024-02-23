@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice 1</title>
+  <script>
+    // Only float numbers
+    let numberOne = parseFloat(prompt('Write the first number'))
+    let numberTwo = parseFloat(prompt('Write the second number'))
+    let isNumberEqual = parseFloat(numberOne) === parseFloat(numberTwo)
+
+    alert(`Check whether the two numbers entered are the same: ${isNumberEqual}!`)
+
+  </script>
+</head>
+<body>
+  <p><b>Special 2 - Check whether the two numbers entered are the same </b></p>
+  <p id="write-result"></p>
+
+  <ol>
+    <li><a href="special-01.html">Previous exercise - Special 1</a></li>
+    <li><a href="../index.html">List Exercise</a></li>
+  </ol>
+
+  <script>
+    let elementResult = document.getElementById('write-result').innerText = `Check whether the two numbers entered are the same: ${isNumberEqual}!`
+  </script>
+</body>
+</html>

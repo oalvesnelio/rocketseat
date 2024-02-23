@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice 1</title>
+  <script>
+    // Only float numbers
+    let numberOne = parseFloat(prompt('Write the first number'))
+    let numberTwo = parseFloat(prompt('Write the second number'))
+    let numberMultiplication = parseFloat(numberOne * numberTwo)
+
+    alert(`The multiplication of the two numbers is: ${numberMultiplication}`);
+
+  </script>
+</head>
+<body>
+  <p><b>3 - The multiplication of two numbers</b></p>
+  <p id="write-result"></p>
+
+  <ol>
+    <li><a href="exercise-02.html">Previous exercise - Number 2</a></li>
+    <li><a href="exercise-04.html">Next exercise - Number 4</a></li>
+  </ol>
+
+  <script>
+    let elementResult = document.getElementById('write-result').innerText = `The multiplication of the two numbers is: ${numberMultiplication}`
+  </script>
+</body>
+</html>

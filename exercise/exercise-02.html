@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice 1</title>
+  <script>
+    // Only float numbers
+    let numberOne = parseFloat(prompt('Write the first number'))
+    let numberTwo = parseFloat(prompt('Write the second number'))
+    let numberSubtraction = parseFloat(numberOne - numberTwo)
+
+    alert(`The subtraction of the two numbers is: ${numberSubtraction}`);
+
+  </script>
+</head>
+<body>
+  <p><b>2- The subtraction of two numbers</b></p>
+  <p id="write-result"></p>
+
+  <ol>
+    <li><a href="../index.html">Previous exercise</a></li>
+    <li><a href="exercise-03.html">Next exercise - Number 3</a></li>
+  </ol>
+
+  <script>
+    let elementResult = document.getElementById('write-result').innerText = `The subtraction of the two numbers is: ${numberSubtraction}`
+  </script>
+</body>
+</html>
