@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   margin: 0;
 }
@@ -9,12 +9,12 @@ body {
   margin: 0 auto 72px;
 }
 
-#hero img {
+#hero img{
   margin-bottom: 72px;
 }
 
 h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 49px;
   line-height: 56px;
   font-weight: normal;
@@ -27,16 +27,16 @@ h1 span {
 }
 
 span, a {
-  color: #FF9900;
+  color: #ff9900;
 }
 
 p, #footer {
-  color: #7D7987;
+  color: #7d7987;
   font-size: 14px;
   line-height: 28px;
 }
 
-#footer a + a{
+#footer a + a {
   margin-left: 28px;
 }
 
